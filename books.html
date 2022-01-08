@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>誰肯韓德-二手拍賣</title>
+  <link rel="stylesheet" href="assets/index.css">
+</head>
+
+<body background="assets/img/牆紙.jpg">
+  <header>
+    <a class="title" href="index.html">誰肯韓德</a>
+    <ul class="drop-down-menu">
+      <li>
+        <a href="aboutus.html">關於我們</a>
+      </li>
+      <li>
+        <a href="">商品分類</a>
+        <ul>
+
+          <li>
+            <a href="supplies.html">日常用品</a>
+          </li>
+          <li>
+            <a href="stationery.html">文具</a>
+          </li>
+          <li>
+            <a href="books.html">書籍</a>
+          </li>
+          <li>
+            <a href="entertainment.html">娛樂</a>
+          </li>
+          <li>
+            <a href="3c.html">3C家電</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="member.html">會員登入</a>
+      </li>
+    </ul>
+  </header>
+  <hr>
+  <figure>
+    <a href="85.html"><img class="zoom" src="assets/img/S__12337185.jpg" title="這是一本會計課本"></a>
+    <a href="83.html"><img class="zoom" src="assets/img/S__12337183.jpg" title="這是一本JAVA課本(幾乎新的"></a>
+    <a href="book.html"><img class="zoom" src="assets/img/787932EE-3A67-45A3-9798-1237C028025B.jpg"
+        title="非常好看的一本書，曾經連續熬夜3天看這本書"></a>
+  </figure>
+  <div class="p">
+    <p style="margin-left: 370px;">被當過的會計課本<br><b>$600</b></p>
+    <p style="margin-left: 250px;">30天成為JAVA大神<br><b>$280</b></p>
+    <p style="margin-left: 250px;">開心的時候必看!<br><b>$399</b></p>
+  </div>
+  <a href="shopping.html"><input style="margin-left: 370px;" type="button" value="立即購買!"></a>
+  <a href="shopping.html"><input style="margin-left: 370px;" type="button" value="立即購買!"></a>
+  <a href="shopping.html"><input style="margin-left: 370px;" type="button" value="立即購買!"></a>
+  <figure>
+    <a href="67.html"><img class="zoom" src="assets/img/S__12337167.jpg" title="魔鬼的店，簡稱鬼店"></a>
+    <a href="77.html"><img class="zoom" src="assets/img/S__12337177.jpg" title="蠟筆小新好好笑"></a>
+    <a href="76.html"><img class="zoom" src="assets/img/S__12337176.jpg" title="趕快買，去讀書!"></a>
+  </figure>
+  <div class="p">
+    <p style="margin-left: 370px;">快找你媽媽陪你看<br><b>$299</b></p>
+    <p style="margin-left: 250px;">下課十分鐘必讀!<br><b>$80</b></p>
+    <p style="margin-left: 290px;">你知道要學測了嗎?<br><b>$199</b></p>
+  </div>
+  <a href="shopping.html"><input style="margin-left: 370px;" type="button" value="立即購買!"></a>
+  <a href="shopping.html"><input style="margin-left: 370px;" type="button" value="立即購買!"></a>
+  <a href="shopping.html"><input style="margin-left: 430px;" type="button" value="立即購買!"></a>
+  <footer>
+    <div style="text-align: center;">
+      <p>
+        © 2021 誰肯韓德-版權所有-轉載必究-Copyright-誰肯韓德國際股份有限公司
+      </p>
+    </div>
+  </footer>
+  <button class="js-back-to-top back-to-top">&#65085;</button>
+
+  <script src="https://cdn.staticfile.org/jquery/2.2.4/jquery.min.js"></script>
+
+  <script>
+    $(function () {
+
+      var $win = $(window);
+
+      var $backToTop = $('.js-back-to-top');
+
+      // 當用戶滾動到離頂部100像素時，展示回到頂部按鈕
+
+      $win.scroll(function () {
+
+        if ($win.scrollTop() > 100) {
+
+          $backToTop.show();
+
+        } else {
+
+          $backToTop.hide();
+
+        }
+
+      });
+
+      // 當用戶點擊按鈕時，通過動畫效果返回頭部
+
+      $backToTop.click(function () {
+
+        $('html, body').animate({
+          scrollTop: 0
+        }, 200);
+
+      });
+
+    });
+  </script>
+</body>
+
+</html>
